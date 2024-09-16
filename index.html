@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM(Document Object Model)</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Welcome to my DOM</h1>
+    <main>
+       <section>
+        <h1>My Awesome DOM</h1>
+        <ul>
+            <li>Mofayel Rana</li>
+            <li>Arman Zamani</li>
+            <li>Mahfuzur Rahman</li>
+            <li>Rakib Hossain</li>
+            <li>Kondokar</li>
+        </ul>
+        <ul>
+            <li>Jhankar Mahbub</li>
+            <li>Ayman Sadiq</li>
+            <li>Khalid Farhan</li>
+            <li>Anayet Chowdury</li>
+        </ul>
+       </section>
+
+        <section class="fruits-container">
+            <h1 id="fruits-title">Fruits I like</h1>
+            <ul id="fruits-collection">
+                <li>Apple</li>
+                <li>Banana</li>
+                <li>Carrot</li>
+            </ul>
+        </section>
+
+        <section id="places-container">
+            <h1 id="places-title">Places I like to visite</h1>
+            <ul id="places-collection">
+                <li class="praority-1">Soondarban</li>
+                <li class="praority-1">Bandorban</li>
+                <li class="praority-1">Kuakata</li>
+                <li id="coxsBazar">Cox's Bazar</li>
+            </ul>
+        </section>
+    </main>
+     
+    
+    <script src="./script.js"></script>
+    <script src="./append.js"></script>
+    <script src="./styleIn.js"></script>
+    <script>
+        const liItems = document.getElementsByTagName("li");  
+        for(let li of liItems){
+            // console.log(li.innerText)
+        }
+    </script>
+</body>
+</html>
